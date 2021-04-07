@@ -78,7 +78,7 @@ int main(){
 }
 
 void Print_ADC() {          
-    for (int i = 0; i < 500; i++) {
+    for (int i = 0; i < sample; i++) {
         printf("%f\r\n", ADC[i]);
         ThisThread::sleep_for(1ms);
     }
