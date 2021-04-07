@@ -95,7 +95,7 @@ while(1) {
 
 ```
 t.start(callback(&queue, &EventQueue::dispatch_forever)); // Build an eventqueue for the multiple task 
-    sw3.rise(queue.event(Print_ADC));
+sw3.rise(queue.event(Print_ADC));
     
 void Print_ADC() {          
     for (int i = 0; i < 1000; i++) {
