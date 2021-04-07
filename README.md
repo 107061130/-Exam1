@@ -25,7 +25,13 @@
 ---
 
 ## Code
+### 操作
+最右邊的button讓Slew Rate * 2
+中間的讓Slew Rate / 2
+最左邊的確定Slew Rate
+按下User_Button印出蒐集的ADC_data
 
+---
 ### Button Select Slew Rate
 ```
 while(1) {
