@@ -91,7 +91,7 @@ while(1) {
 }
 ```
 
-## Thread to Output ADC_data
+## Thread to Output ADC_data when push USER_BUTTON
 
 ```
 t.start(callback(&queue, &EventQueue::dispatch_forever)); // Build an eventqueue for the multiple task 
